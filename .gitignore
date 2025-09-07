@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Env
+.env
+.venv/
+
+# IDE
+.DS_Store
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*$py.class
+
+# Celery beat schedule
+celerybeat-schedule
+celerybeat.pid
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
